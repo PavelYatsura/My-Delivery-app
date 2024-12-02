@@ -1,0 +1,11 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+.menu {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 34px;
+  column-gap: 45px;
+}

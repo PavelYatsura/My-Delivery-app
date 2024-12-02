@@ -1,0 +1,20 @@
+.authorization {
+    margin: 0 auto;
+    display: flex;
+    min-height: 100vh;
+    width: 1000px;
+}
+.authorization__logo {
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.authorization__content {
+    border-left: 1px solid var(--seporatot-color);
+    padding-left: 87px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

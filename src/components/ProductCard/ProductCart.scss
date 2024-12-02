@@ -1,0 +1,98 @@
+.card__link{
+  text-decoration: none;
+  color: var(--text-color);
+  cursor: default ;
+  
+}
+.card__link:active{
+  color: var(--text-color);
+}
+.card:hover{
+
+  transform: translateY(-2px);
+}
+.card {
+  width: 323px;
+  height: 248px;
+  border-radius: 19px;
+  box-shadow: 18px 18px 36px 0px rgba(211, 209, 216, 0.25);
+  background-color: var(--white-color);
+  user-select: none;
+  transition: all .2s;
+}
+
+.card__head {
+  position: relative;
+  height: 165px;
+  border-radius: 19px;
+  margin-bottom: 19px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card__price {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  min-width: 81px;
+  min-height: 34px;
+  border-radius: 121px;
+  background-color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.card__currency {
+  color: var(--primery-color);
+}
+.card__buy {
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  width: 34px;
+  height: 34px;
+  border-radius: 100%;
+  background-color: var(--primery-color);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all .2s;
+}
+.card__buy:hover{
+  transform: scale(1.1);
+}
+.card__buy:active{
+  transform: scale(1);
+}
+.card__rating {
+  position: absolute;
+  bottom: -15px;
+  left: 13px;
+  width: 51px;
+  height: 29px;
+  border-radius: 19px;
+  background-color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 6px 24px 0px rgba(254, 111, 76, 0.25);
+  font-size: 12px;
+  font-weight: 600;
+}
+.card__footer {
+  padding-left: 12px;
+}
+.card__title {
+  font-size: 18px;
+  color: var(--text-color);
+  font-weight: 600;
+}
+.cart__disription {
+  font-size: 14px;
+  color: var(--text-secondary-color);
+  font-weight: 400;
+}

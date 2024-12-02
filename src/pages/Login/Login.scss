@@ -1,0 +1,45 @@
+.login__title {
+  font-size: 36px;
+  line-height: 120%;
+  font-weight: 600;
+  margin-bottom: 31px;
+  color: var(--text-color);
+}
+.login__label {
+  font-size: 17px;
+  color: var(--text-secondary-color);
+}
+.login__email {
+  display: block;
+  width: 324px;
+  height: 65px;
+  margin-bottom: 30px;
+}
+.login__password {
+  display: block;
+  width: 324px;
+  height: 65px;
+  margin-bottom: 74px;
+}
+.login__btn {
+  display: grid;
+  width: 248px;
+  height: 60px;
+  justify-self: center;
+  margin-bottom: 30px;
+}
+.login__text {
+  text-align: center;
+}
+.login__link {
+  display: grid;
+  justify-self: center;
+  color: var(--primery-color);
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+.login__error {
+  background-color: #ffc529;
+  color: white;
+  padding: 20px;
+}

@@ -1,0 +1,53 @@
+.register__title {
+  font-size: 36px;
+  line-height: 120%;
+  font-weight: 600;
+  margin-bottom: 31px;
+  color: var(--text-color);
+}
+.register__label {
+  font-size: 17px;
+  color: var(--text-secondary-color);
+}
+.register__email {
+  display: block;
+  width: 324px;
+  height: 65px;
+  margin-bottom: 30px;
+}
+.register__password {
+  display: block;
+  width: 324px;
+  height: 65px;
+  margin-bottom: 30px;
+}
+.register__name {
+  display: block;
+  width: 324px;
+  height: 65px;
+  margin-bottom: 50px;
+}
+.register__btn {
+  display: grid;
+  width: 248px;
+  height: 60px;
+  justify-self: center;
+  margin-bottom: 30px;
+  align-items: center;
+  text-transform: uppercase;
+}
+.register__text {
+  text-align: center;
+}
+.register__link {
+  display: grid;
+  justify-self: center;
+  color: var(--primery-color);
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+.register__error {
+  background-color: #ffc529;
+  color: white;
+  padding: 20px;
+}
